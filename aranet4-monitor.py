@@ -2,7 +2,7 @@ import asyncio
 import logging
 import time
 from http.server import HTTPServer, BaseHTTPRequestHandler
-from aranet4.client import Aranet4
+from aranet4.client import Aranet4 # apt install python3-aranet4
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)

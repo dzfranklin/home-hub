@@ -5,9 +5,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=daniel
 WorkingDirectory=/tmp
-ExecStart=/usr/bin/python3 /home/daniel/home-hub/aranet4_monitor.py
+ExecStart=/usr/bin/python3 /home/daniel/home-hub/aranet4-monitor.py
 Restart=always
 RestartSec=10
 
@@ -19,4 +18,4 @@ PrivateTmp=true
 SupplementaryGroups=bluetooth
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
