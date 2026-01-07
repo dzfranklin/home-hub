@@ -14,8 +14,5 @@ RestartSec=10
 NoNewPrivileges=true
 PrivateTmp=true
 
-# Bluetooth access
-SupplementaryGroups=bluetooth
-
 [Install]
 WantedBy=default.target
